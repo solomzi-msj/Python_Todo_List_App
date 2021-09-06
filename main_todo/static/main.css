@@ -21,6 +21,7 @@ input[type=text]:focus {
 .todos li {
     background: #423a6f;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .delete {
@@ -38,4 +39,5 @@ a {
 .complete {
     text-decoration: line-through;
     color: #cb3934;
+    border: 2px solid #cb3934;
 }
