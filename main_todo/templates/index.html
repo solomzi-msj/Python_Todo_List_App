@@ -20,6 +20,7 @@
             {{form.todo_input(class="form-control m-auto")}}
             {{form.submit(class="btn btn-outline-secondary")}}
         </form>
+        <input type="text" class="form-control m-auto" id="search" placeholder="Serach Todos">
         <ul class="list-group todos mx-auto text-light" id="todos">
             {% for todo in todos %}
                 <li class="list-group-item d-flex justify-content-between align-items-center">
