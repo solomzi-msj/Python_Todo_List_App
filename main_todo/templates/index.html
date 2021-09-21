@@ -13,6 +13,7 @@
     <div class="container">
         <header class="text-center text-light my-4">
             <h1 class="mb-4">Todo List</h1>
+            <div class="clock"></div>
         </header>
         <form class="add text-center my-4" autocomplete="off" method="POST" action="/add">
             {{form.hidden_tag()}}
@@ -31,5 +32,6 @@
         </ul>
     </div>
     <script src="{{ url_for('static', filename = 'todo.js') }}" type="text/javascript"></script>
+    <script src="{{ url_for('static', filename = 'clock.js') }}" type="text/javascript"></script>
 </body>
 </html>

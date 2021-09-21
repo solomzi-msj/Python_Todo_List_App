@@ -41,3 +41,11 @@ a {
     color: #cb3934;
     border: 2px solid #cb3934 !important;
 }
+
+/* Style for the clock */
+.clock span {
+    background: #000;
+    padding: 15px;
+    font-size: 26px;
+    color: #96cb34;
+}
